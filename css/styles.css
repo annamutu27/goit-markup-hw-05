@@ -521,9 +521,13 @@ button {
 .footer-form {
   display: flex;
   align-items: center;
+  gap: 24px;
 }
 
-.footer-form-emial {
+.footer-form-label {
+}
+
+.footer-form-input {
   background-color: transparent;
   border: 1px solid #4d5ae5;
   border-radius: 4px;
@@ -531,19 +535,18 @@ button {
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   color: #fff;
-  margin-right: 16px;
   padding: 8px 16px;
   text-align: left;
 }
 
-.footer-form-emial::placeholder {
+.footer-form-input::placeholder {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
 }
 
-.footer-form-emial:placeholder-shown {
+.footer-form-input:placeholder-shown {
   border-color: #fff;
 }
 
