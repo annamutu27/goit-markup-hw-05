@@ -51,6 +51,13 @@ img {
   margin: 0 auto;
 }
 
+button {
+  font-family: inherit;
+  color: currentColor;
+  margin: 0;
+  padding: 0;
+}
+
 /* ------------------------------ HEADER ------------------------------ */
 
 .header {
@@ -497,4 +504,70 @@ img {
 .footer-soc-link:hover,
 .footer-soc-link:focus {
   background-color: #31d0aa;
+}
+
+.footer-subscribe {
+  margin-left: 80px;
+}
+
+.footer-subscribe-text {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-form {
+  display: flex;
+  align-items: center;
+}
+
+.footer-form-emial {
+  background-color: transparent;
+  border: 1px solid #4d5ae5;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  color: #fff;
+  margin-right: 16px;
+  padding: 8px 16px;
+  text-align: left;
+}
+
+.footer-form-emial::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.footer-form-emial:placeholder-shown {
+  border-color: #fff;
+}
+
+.footer-form-btn {
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.footer-form-icon {
+  fill: #fff;
 }
