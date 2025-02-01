@@ -627,7 +627,7 @@ button {
 }
 
 .backdrop:not(.is-open) .modal {
-  /* transform: translate(-50%, -50%) scale(1, 5); */
+  transform: translate(-50%, -50%) scale(1, 5);
 }
 
 .modal-close-btn {
